@@ -1,6 +1,6 @@
 package ru.evgenen96.springdemo.mvc;
 
-import org.springframework.format.annotation.NumberFormat;
+import ru.evgenen96.springdemo.mvc.validation.CourseCode;
 
 import javax.validation.constraints.*;
 
@@ -19,6 +19,9 @@ public class Customer {
 
     @Pattern(regexp = "^[a-zA-Z0-9]{5}", message = " only 5 chars")
     private String postalCode;
+
+    @CourseCode
+    private String courseCode;
 
     public String getPostalCode() {
         return postalCode;
@@ -50,5 +53,13 @@ public class Customer {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 }
