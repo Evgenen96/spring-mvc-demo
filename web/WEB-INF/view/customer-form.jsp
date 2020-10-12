@@ -23,9 +23,14 @@
         <br><br>
         Last name (*): <form:input path="lastName" />
         <form:errors path="lastName" cssClass="error" />
-
         <br><br>
-        <input type="submit" value="Submit"/s>
+        Age: (*): <form:input path="age" />
+        <form:errors path="age" cssClass="error" />
+        <br><br>
+        Postal code: <form:input path="postalCode" />
+        <form:errors path="postalCode" cssClass="error" />
+        <br><br>
+        <input type="submit" value="Submit"/>
 
     </form:form>
 

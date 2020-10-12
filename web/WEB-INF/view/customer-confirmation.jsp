@@ -6,7 +6,9 @@
 </head>
 <body>
 
-The customer is confirmed: ${customer.firstName} ${customer.lastName}
+The customer is confirmed: ${customer.firstName} ${customer.lastName} ${customer.age} years old
+<br>
+Postal code is ${customer.postalCode}
 
 </body>
 </html>
