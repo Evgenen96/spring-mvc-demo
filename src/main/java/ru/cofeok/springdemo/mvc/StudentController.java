@@ -1,4 +1,4 @@
-package ru.evgenen96.springdemo.mvc;
+package ru.cofeok.springdemo.mvc;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,7 +17,6 @@ public class StudentController {
         theModel.addAttribute("student", theStudent);
         return "student-form";
     }
-
 
     @RequestMapping("/processForm")
     public String processForm(@ModelAttribute("student") Student theStudent) {

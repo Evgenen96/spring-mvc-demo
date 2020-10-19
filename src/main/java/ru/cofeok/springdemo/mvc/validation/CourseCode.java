@@ -1,4 +1,4 @@
-package ru.evgenen96.springdemo.mvc.validation;
+package ru.cofeok.springdemo.mvc.validation;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

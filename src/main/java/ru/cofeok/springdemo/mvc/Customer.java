@@ -1,6 +1,6 @@
-package ru.evgenen96.springdemo.mvc;
+package ru.cofeok.springdemo.mvc;
 
-import ru.evgenen96.springdemo.mvc.validation.CourseCode;
+import ru.cofeok.springdemo.mvc.validation.CourseCode;
 
 import javax.validation.constraints.*;
 

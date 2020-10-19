@@ -1,4 +1,4 @@
-package ru.evgenen96.springdemo.mvc;
+package ru.cofeok.springdemo.mvc;
 
 import java.util.LinkedHashMap;
 
